@@ -10,10 +10,10 @@
         <vm:AuthViewModel/>
     </Design.DataContext>
 
-    <Grid Background="#f8f9fa" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <Grid Background="#E3E8EC" HorizontalAlignment="Center" VerticalAlignment="Center">
         <Border Width="400" 
                 Background="White" 
-                BorderBrush="#dee2e6" 
+                BorderBrush="#E3E8EC" 
                 BorderThickness="1" 
                 CornerRadius="10" 
                 Padding="40">
@@ -60,7 +60,7 @@
                             HorizontalContentAlignment="Center"
                             VerticalContentAlignment="Center"
                             Height="44"
-                            Background="#3498db"
+                            Background="#FF4F12"
                             Foreground="White"
                             FontSize="14"
                             FontWeight="SemiBold"
@@ -81,8 +81,8 @@
                 </Border>
 
                 <!-- Тестовые учетные данные -->
-                <Border Background="#e8f4f8" 
-                        BorderBrush="#b8daff"
+                <Border Background="#E3E8EC" 
+                        BorderBrush="#7700FF"
                         BorderThickness="1"
                         CornerRadius="6" 
                         Padding="12"
@@ -91,7 +91,7 @@
                         <TextBlock Text="Тестовые учетные данные:" 
                                   FontWeight="SemiBold" 
                                   FontSize="12"
-                                  Foreground="#17a2b8"
+                                  Foreground="#7700FF"
                                   Margin="0,0,0,5"/>
                         <TextBlock Text="admin / admin - Администратор" 
                                   FontSize="11"
